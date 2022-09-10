@@ -1,305 +1,114 @@
 
+:root {
+    --primary-text-color: ##303030;
+    --secondary-text-color: #ffffff;
+    --primary-title-color: rgba(157, 164, 189, 0.6);
+    --eccent: #FF6C00;
+    --primary-description-color: #9DA4BD;
+}
+
 /* Body */
 
-.header {
-
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
 }
-
-.header-nav {
-
-}
-
-.header-list {
-
-}
-
-.header-item {
-
-}
-
-.header-contact {
-
-}
-
-.header-btn {
-
-}
-
-.main {
-
-}
-
-
-/* Hero section */
-
-.hero {
-
-}
-
-.hero-social {
-
-}
-
-.social-item {
-
-}
-
-.hero-pre-titel {
-
-}
-
-.hero-title {
-
-}
-
-.hero-description {
-
-}
-
-
-/* About Section */
-
-.about {
-
-}
-
-.about-list {
-
-}
-
-.about-item {
-
-}
-
-
-.about-pre-titel {
-
-}
-
-.about-title {
-
-}
-
-.about-description {
-
-}
-
-.about-btn {
-
-}
-
-
-
-/* Services and prices Section */
-
-.serprices {
-
-}
-
-
-.serprices-pre-titel {
-
-}
-
-.serprices-title {
-
-}
-
-
-.serprices-list {
-
-}
-
-.serprices-item {
-
-}
-
-.serpricesitem-list {
-
-}
-
-.serpricesitem-itemlist {
-
-}
-
-.serpricesitem-description {
-
-}
-
-.serprices-btn {
-
-}
-
-
-/* Why peopel come to us Section */
-
-.cometous {
-
-}
-
-.cometous-list {
-
-}
-
-.cometous-item {
-
-}
-
-.cometous-feature {
-
-}
-
-.cometous-symbols {
-
-}
-
-.cometous-description {
-
-}
-
-.cometous-pre-titel {
-
-}
-
-.cometous-title {
-
-}
-
-.cometous-after-title {
-
-}
-
-
-/* Our barbers Section */
-
-.barbers {
-
-}
-
-.barbers-pre-title {
-
-}
-
-.barbers-title {
-
-}
-
-.barbers-list {
-
-}
-
-.barbers-item {
-
-}
-
-.barbers-img {
-
-}
-
-.barbers-title-img {
-
-}
-
-.barbers-description {
-
-}
-
-.barbers-span {
-
-}
-
-
-/* In Latin, "barba" means "beard" Section */
-
-.beard {
-
-}
-
-.beard-description {
-
-}
-
-.beard-list {
-
-}
-
-.beard-item {
-
-}
-
-.beard-img {
-
-}
-
-
-/* Online-booking Section */
-
-.onlbooking {
-
-}
-
-.onlbooking-title {
-
-}
-
-
-/* Contact Section */
-
-.contact {
-
-}
-
-.contact-title {
-
-}
-
-.contact-address {
-
-}
-
-.contact-list {
-
-}
-
-.contact-strit {
-
-}
-
-.contact-telmail {
-
-}
-
-.contact-worhour {
-
-}
-
-.contact-worktime {
-
-}
-
-
-/* Footer */
-
-.footer {
-
-}
-
-.footer-copyright {
-
-}
-
-.footer-list {
-
-}
-
-.footer-item {
-
-}
-
-
-
-
 
 .list {
     list-style: none;
 }
+
+.link {
+    text-decoration: none; 
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+/* Header */
+
+.header {
+    background-color: #c4c0c0;
+}
+
+.header-link {
+    color: var(--secondary-text-color);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: 0.1em;
+}
+
+.link:hover,
+.link:focus {
+    color: var(--eccent);
+}
+
+.header-contact {
+    color: var(--secondary-text-color);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.3;
+    letter-spacing: 0.1em;
+}
+
+.header-btn {
+    color: var(--secondary-text-color);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.3;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+}
+
+/* Hero Section */
+
+.hero {
+    background-color: darkkhaki;
+}
+
+.social-item-link {
+    color: var(--primary-text-color);
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.4;
+    letter-spacing: 0.2em;
+}
+
+.hero-pre-titel {
+    color: var(--primary-title-color);
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.4;
+    text-transform: uppercase
+}
+
+.hero-title {
+    color: var(--secondary-text-color);
+    font-family: 'Raleway' ;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+}
+
+.hero-description {
+    color: var(--primary-description-color);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.7;
+    letter-spacing: 0.02em;
+}
+
+/* About Section */
+
